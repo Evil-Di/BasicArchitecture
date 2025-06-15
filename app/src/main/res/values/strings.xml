@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">BasicArchitecture</string>
+    <string name="app_name">Basic Architecture</string>
+    <string name="button_next">Next</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_date_of_birth">Date of Birth</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_city">City</string>
+    <string name="hint_address">Address</string>
+    <string name="interest_sports">Sports</string>
+    <string name="interest_music">Music</string>
+    <string name="interest_fine_arts">Fine Arts</string>
+    <string name="interest_books">Books</string>
+    <string name="interest_travels">Travels</string>
+    <string name="interest_dancing">Dancing</string>
+    <string name="interest_comp_games">Computer games</string>
+    <string name="interest_food">Food</string>
+    <string name="interest_pets">Pets</string>
+    <string name="hint_interests">Interests</string>
+    <string name="name">$Name</string>
+    <string name="surname">$Surname</string>
+    <string name="date_of_birth">$BirthDate</string>
+    <string name="address">$Address</string>
+    <string name="date_pattern">dd.MM.yyyy</string>
+    <string name="select_birthday">Please select your birthday</string>
+    <string name="restricted_access">Denied: 18+yo only</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="address_mask">%s, %s, %s</string>
 </resources>

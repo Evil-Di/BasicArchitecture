@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="endIconMode">clear_text</item>
+    </style>
+
+    <style name="NextButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyLarge</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="InterestChipStyle" parent="Widget.Material3.Chip.Filter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyLarge</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Small</item>
+        <item name="chipBackgroundColor">@color/white</item>
+        <item name="chipStrokeColor">?attr/colorPrimaryVariant</item>
+        <item name="checkedIconTint">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="SummaryHintStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="SummaryTextStyle" parent="SummaryHintStyle">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyLarge</item>
+    </style>
+
+    <style name="RestrictedAccessStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:textColor">?attr/colorError</item>
+    </style>
+</resources>

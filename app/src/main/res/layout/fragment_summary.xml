@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.summary.SummaryFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hintName"
+                style="@style/SummaryHintStyle"
+                android:text="@string/hint_name"
+                />
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/SummaryTextStyle"
+                android:text="@string/name"
+                />
+
+            <TextView
+                android:id="@+id/hintSurname"
+                style="@style/SummaryHintStyle"
+                android:text="@string/hint_surname"
+                />
+
+            <TextView
+                android:id="@+id/surname"
+                style="@style/SummaryTextStyle"
+                android:text="@string/surname"
+                />
+
+            <TextView
+                android:id="@+id/hintBirthDate"
+                style="@style/SummaryHintStyle"
+                android:text="@string/hint_date_of_birth"
+                />
+
+            <TextView
+                android:id="@+id/birthDate"
+                style="@style/SummaryTextStyle"
+                android:text="@string/date_of_birth"
+                />
+
+            <TextView
+                android:id="@+id/hintAddress"
+                style="@style/SummaryHintStyle"
+                android:text="@string/hint_address"
+                />
+
+            <TextView
+                android:id="@+id/address"
+                style="@style/SummaryTextStyle"
+                android:text="@string/address"
+                />
+
+            <TextView
+                android:id="@+id/hintInterests"
+                style="@style/SummaryHintStyle"
+                android:text="@string/hint_interests"
+                />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/interestsChips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin">
+
+            </com.google.android.material.chip.ChipGroup>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>
