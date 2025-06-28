@@ -7,9 +7,3 @@ data class PersonName(
     val surName: String,
     val birthDate: LocalDate
 )
-
-data class PersonAddress(
-    val country: String,
-    val city: String,
-    val address: String
-)

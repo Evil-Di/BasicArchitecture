@@ -35,11 +35,7 @@ class SummaryFragment : Fragment() {
             name.text = viewModel.name.name
             surname.text = viewModel.name.surName
             birthDate.text = formatDate(viewModel.name.birthDate)
-
-            address.text = String.format(resources.getString(R.string.address_mask),
-                viewModel.address.country,
-                viewModel.address.city,
-                viewModel.address.address)
+            address.text = viewModel.address
 
             InterestChips.load(interestsChips, viewModel.interests) { isClickable = false }
         }

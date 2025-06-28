@@ -21,7 +21,7 @@ private val interestsMap = mapOf(
 
 class WizardCache {
     var name: PersonName = PersonName("", "", LocalDate.now())
-    var address: PersonAddress = PersonAddress("", "", "")
+    var address: String = ""
     var interests: Map<String, Boolean> = interestsMap
 }
 
