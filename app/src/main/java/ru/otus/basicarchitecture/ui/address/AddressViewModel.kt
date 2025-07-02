@@ -56,6 +56,7 @@ class AddressViewModel @Inject constructor(
 
     fun getSuggestions(edit: String) {
         if (edit != data) {
+            activeJob?.cancel()
             activeJob = viewModelScope.launch {
                 try {
                     suggestions.value = service.getSuggestions(edit)
